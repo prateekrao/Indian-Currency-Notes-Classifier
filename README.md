@@ -1,5 +1,7 @@
 # Indian-Currency-Notes-Classifier
 
+Deep Learning Model to recognize and classify Indian Currency in notes form.
+
   ## **Introduction**
 
   The model is trained to recognize 7 classes of Indian Currency in the form of notes.
