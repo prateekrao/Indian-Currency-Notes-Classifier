@@ -24,13 +24,13 @@ Deep Learning Model to recognize and classify Indian Currency in notes form.
    
    ## **Model Features**
    
-*  This is an implementation of a vanilla Convolutional Neural Network, which consists of 3 convolutional layers with 32, 64 and 64 filters each with size of (3,3)
+* This is an implementation of a vanilla Convolutional Neural Network, which consists of 3 convolutional layers with 32, 64 and 64 filters each with size of (3,3)
    and pooling is done with MaxPooling.
-*  Artificial Deep Neural Network is used for classification, and consists of a Dropout Layer as well as a layer for flattening the input given through the CNN.
-*  It has two Hidden Layers with 32 and 64 neurons each, and an output layer with 8 neurons (representing the 8 classes) with activation softmax, to give the output 
+* Artificial Deep Neural Network is used for classification, and consists of a Dropout Layer as well as a layer for flattening the input given through the CNN.
+* It has two Hidden Layers with 32 and 64 neurons each, and an output layer with 8 neurons (representing the 8 classes) with activation softmax, to give the output 
    in the form of distribution of probabilities, which makes it easier to classify.
-*  Activation functions of all the other Convolutional Layers and Hidden Layers is *relu*
-*  Optimizer used is *adam*, loss function is *categorical crossentropy* 
+* Activation functions of all the other Convolutional Layers and Hidden Layers is *relu*
+* Optimizer used is *adam*, loss function is *categorical crossentropy* 
 
   ## **Overfitting and Accuracy**
   
