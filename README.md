@@ -41,8 +41,14 @@ Deep Learning Model to recognize and classify Indian Currency in notes form.
     *  Using Data Augmentation to increase size of dataset
     
 ##  **Training and Validation Accuracy**
-The table gives validation and training accuracy at the end of training of the model.
+>The table gives validation and training accuracy at the end of training of the model.
 
 Training Accuracy | Validation Accuracy 
 ------------------|--------------------
 82.28 %           |             76.81 %
+
+>The same dataset on training using Transfer learning with pretrained model ```MobileNetV2``` gives the following results:
+
+Training Accuracy | Validation Accuracy
+------------------|------------------------
+98.42%            |               91.59%
